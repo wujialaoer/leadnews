@@ -121,6 +121,7 @@ export default {
   computed: {
     playerSrc() {
       return `https://player.bilibili.com/player.html?aid=${this.videoInfo.aid}&bvid=${this.bvid}&cid=${this.videoInfo.cid}&page=1`
+      // return `http://127.0.0.1:8080/#/media/demo1.mp4`
     }
   },
   created() {
